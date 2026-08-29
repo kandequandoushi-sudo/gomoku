@@ -1,0 +1,11 @@
+# ============================================================
+# 运行「五子棋 · Rapfi 人机对战」本身无需任何第三方 Python 包，
+# 仅使用 Python 标准库（os/sys/queue/threading/subprocess/tkinter）。
+# Python 3.8+ 即可，tkinter 在 Windows/macOS 官方安装包中自带；
+# Debian/Ubuntu 如缺失请执行：sudo apt install python3-tk
+#
+# 本文件仅列出「把源码打包成 exe」时需要的工具，可选安装：
+#     pip install -r requirements.txt
+# ============================================================
+
+pyinstaller>=6.0
