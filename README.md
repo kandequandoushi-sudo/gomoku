@@ -8,7 +8,7 @@
 ![GUI](https://img.shields.io/badge/GUI-Tkinter-orange)
 ![Engine](https://img.shields.io/badge/Engine-Rapfi%202025--06--15-green)
 ![License](https://img.shields.io/badge/License-GPL--3.0-red)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![Platform](https://img.shields.io/badge/Windows-10%2F11%20x64-0078D4?logo=windows)
 
 ---
 
@@ -38,17 +38,26 @@
 
 ## 快速开始
 
-### 环境要求
+### 方式一：下载免安装版（仅 Windows，推荐普通用户）
+
+到 [Releases 页面](https://github.com/kandequandoushi-sudo/gomoku/releases) 下载
+`gomoku-v*-windows-x64.zip`，解压后双击其中的 **五子棋.exe** 即可，无需安装 Python。
+
+> 预编译可执行包**仅支持 64 位 Windows 10/11**（内置 Windows 版引擎与运行时）。
+
+### 方式二：源码运行（跨平台）
+
+环境要求：
 
 - **Python 3.8+**（推荐 3.10 及以上）
 - Tkinter（Windows / macOS 官方安装包自带；Debian/Ubuntu 需 `sudo apt install python3-tk`）
 - 本项目**不依赖任何第三方 Python 包**
 
-### 源码运行
+克隆并运行：
 
 ```bash
-git clone https://github.com/<你的用户名>/<仓库名>.git
-cd <仓库名>
+git clone https://github.com/kandequandoushi-sudo/gomoku.git
+cd gomoku
 python gomoku.py
 ```
 
